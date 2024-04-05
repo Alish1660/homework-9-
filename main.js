@@ -116,30 +116,22 @@
 //   console.log(getLevel(5));
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 3-misol ///////////////////////////////////////////////////////////////////////////////////////////
-// function space_even_odd(num1, num2) {
-//     if (num1 > num2) {
-//       [num1, num2] = [num2, num1];
+// function sum_ofEvens(){
+//     let num1 = prompt(`enter number for num1`)
+//     let num2 = prompt(`enter number for num2`)
+//     let total = 0
+//       let small_num;
+//     if(num1 < num2 ){
+//       small_num = num1
+//     }else{
+//        small_num = num2
 //     }
-//     let total = 0;
-//     for (let i = num1 + 1; i < num2; i++) {
-//       if (i % 2 === 0) {
-//         total += i;
-//       }
+//     for(let i = small_num; i<= num1+ num2;i+=2){
+//       total+=i
 //     }
-//     return yigindi;
+//     console.log(`oraliqdagi sonlar yigindisi `+total)
 //   }
-//   let num1 = parseInt(prompt("Birinchi sonni kiriting: "));
-//   let num2 = parseInt(prompt("Ikkinchi sonni kiriting: "));
-//   if (num1 === num2) {
-//     console.log("Ikki son bir xil, ularning oralig'idagi juft sonlar yo'q.");
-//   } else if (num1 < mum2) {
-//     let total = space_even_odd(num1, num2);
-//     console.log(
-//       `${num1} va ${num2} oralig'idagi juft sonlar yig'indisi: ${total}`
-//     );
-//   } else {
-//     console.log("Birinchi son ikkinchisidan katta, albatta bunday.");
-//   }
+//   sum_ofEvens()
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 // 8-misol ////////////////////////////////////////////////////////////////////////////////////////////
 // function find_numberNine(num) {
